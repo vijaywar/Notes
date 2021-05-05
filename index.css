@@ -2,7 +2,5 @@
     height: 200px;
 }
 .imgcenter{
-    position: relative;
-    left: 50%;
-    transform: translate(-50%,0px);
+   vertical-align: top;
 }

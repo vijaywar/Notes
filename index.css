@@ -4,3 +4,8 @@
 .imgcenter{
    vertical-align: top;
 }
+.icon{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}

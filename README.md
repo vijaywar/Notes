@@ -5,17 +5,20 @@
 <a href="https://invictus-assignment.web.app/"><h4>https://invictus-assignment.web.app/</h4></a>
 
 #Components
-
+<h1>App.js</h1>
+It is a functionaly component.<br>
 First we stat with App.js here I added routing using "react-router-dom".<br>
 <img width='100px' src='./images/struct.jpg'><br>
 App.js also import Navbar.js component from componet/nav folder and set<br> on top of all components to visible in all pages.
 <br>
 It has 2 routs<br>
 / and /about 2 routs are added to this simple app.<br>
-/ will render Home.js component. I has the input form that allows used to inter input.<br>
+<h1>Home.js</h1>
+it is a class component.<br>
+/ will render Home.js component. I has the input form that allows used to enter input value of N and submit.<br>
 <img hight='300px' width='500px' src='./images/home.jpg'><br>
-in Home component on submit of the form it will pass data to the getwords() function this fetch the data asynchronously using fetch().tech() methods<br>
-once the data is fetched it will set the state data value and then call GetTopWords() funciton.
+in Home component on submit of the form it will pass data to the <h3>getwords()</h3>  function this fetch the data asynchronously using <strong>fetch().then()</strong>  methods<br>
+once the data is fetched it will set the state data value and then call <h3>GetTopWords()</h3> funciton.
 This funciton will update the state dictionary with top N frequency words.
 <h1>Test Cases 1: </h1>
 <p>Input: 2</p> output below image<br>
@@ -29,12 +32,18 @@ This funciton will update the state dictionary with top N frequency words.
 
 <img hight='300px' width='500px' src='./images/case12a.jpg'><br>
 as the sate gets update React will automatically update the state every where which results in call of <br>
+<h1>Table.js</h1>
+it is a class component.<br>
 Table component it will create table using the data pased as props.
-
+<br><br>
 In Table this will receive the top N frequency words object in the form of props and crate a Table and display it to users.
 
 <img hight='300px' width='500px' src='./images/aboutme.jpg'><br>
-
+<h1>Navbar.js</h1>
+it is a functional component.<br>
+It returns a nav bar that is build using bootstrap 4.
+<h1>About.js</h1>
+it is a class component.<br>
 About.js component is all about me any my skills. Please check my skills match this role really well.<br>
 
 <img hight='300px' width='500px' src='./images/myskills.jpg'><br>

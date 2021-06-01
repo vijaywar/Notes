@@ -39,13 +39,13 @@ Table component will take the dicitonary as props and build the table using java
 
 If the input data is all good this funciton will pass data to
 <h1>Test Cases 1: </h1>
-<p>Input: 2</p> output below image<br>
+<p>2,3</p> output below image<br>
 <img hight='300px' width='500px' src='./images/case2.jpg'><br>
 <h1>Test Cases 2: </h1>
-<p>Input: 2</p> output below image<br>
+<p>Input: 2,3,300,30,5</p> output below image<br>
 <img hight='300px' width='500px' src='./images/case5.jpg'><br>
 <h1>Test Cases 3: </h1>
-<p>Input: 12</p> output below image<br>
+<p>345,63,127</p> output below image<br>
 <img hight='300px' width='500px' src='./images/case12.jpg'><br>
 
 <img hight='300px' width='500px' src='./images/case12a.jpg'><br>

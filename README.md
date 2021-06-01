@@ -1,8 +1,12 @@
-# React App Invictus Assignment
+# React App Results viewer 
 
-<p>A word count Analyser<p>
-<h3>Firebase Hosted link</h3>
-<a href="https://invictus-assignment.web.app/"><h4>https://invictus-assignment.web.app/</h4></a>
+<p>Results Viewer<p>
+<h3>Heroku Hosted link</h3>
+<a href="https://result-status.herokuapp.com/"><h4>https://result-status.herokuapp.com/</h4></a>
+
+Back End API is creted using node.js and express.
+#Banck End Git link
+https://github.com/Vijaya9418/backend-API
 
 #Components
 <h1>App.js</h1>
@@ -15,11 +19,25 @@ It has 2 routs<br>
 / and /about 2 routs are added to this simple app.<br>
 <h1>Home.js</h1>
 it is a class component.<br>
-/ will render Home.js component. I has the input form that allows used to enter input value of N and submit.<br>
+/ will render Home.js component. I has the input form that allows user to enter roll numbers comma seperated and submit.<br>
+If the input format is not valid then a alert will be displayed.<br>
+For performance 5 results at a time is set as limit it can be increased my calling API multiple times one after other.
+
+
 <img hight='300px' width='500px' src='./images/home.jpg'><br>
-in Home component on submit of the form it will pass data to the <h3>getwords()</h3>  function this fetch the data asynchronously using <strong>fetch().then()</strong>  methods<br>
-once the data is fetched it will set the state data value and then call <h3>GetTopWords()</h3> funciton.
-This funciton will update the state dictionary with top N frequency words.
+in Home component on submit of the form it will pass data to the <h3>getnumbers()</h3>  function this splits the daa
+and validated the data format and make the input string into arry of integers.<br>
+This funciton will display alert message if the input format is invalid.<br>
+<br>This funciton will call getdata function with array passed as parameter this will call setdatatxt(arr) funciton.<br>
+<br>
+setdatatxt(arr) is a synchronous funcitons it will wait for data to fetch form the provided api and sets the data and calls the 
+funciton makeTable.
+<br>
+makeTable(a,b) function will make dictionary form the given input which can be used to build a table by table component.
+<br><br>
+Table component will take the dicitonary as props and build the table using javascirpt dom manupulations.
+
+If the input data is all good this funciton will pass data to
 <h1>Test Cases 1: </h1>
 <p>Input: 2</p> output below image<br>
 <img hight='300px' width='500px' src='./images/case2.jpg'><br>

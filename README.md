@@ -2,13 +2,13 @@
 
 <p>Results Viewer<p>
 <h3>Heroku Hosted link</h3>
-<a href="https://result-status.herokuapp.com/"><h4>https://result-status.herokuapp.com/</h4></a>
+<a href="https://result-status.herokuapp.com/">https://result-status.herokuapp.com/</a>
 
-Back End API is creted using node.js and express.
-#Banck End Git link
+Back End API is created using node.js and express.
+# Banck End Git link
 https://github.com/Vijaya9418/backend-API
 
-#Components
+# Components
 <h1>App.js</h1>
 It is a functionaly component.<br>
 First we stat with App.js here I added routing using "react-router-dom".<br>
@@ -65,7 +65,6 @@ it is a class component.<br>
 About.js component is all about me any my skills. Please check my skills match this role really well.<br>
 
 <img hight='300px' width='500px' src='./images/myskills.jpg'><br>
-Please give me a opportunity I am interested in both web and Android Deveopment.<br>
 I am best in desigining websites and good in React.js ,Javascript ,CSS. I  also know PHP and many other technologies like redux ,using of firebase firestore.<br>
 I am quick learner and hard worker. 
 <br>In the past 3 years I learned so many skills I am interested in making websites and Android Applications.
